@@ -1,0 +1,22 @@
+
+
+body{
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#canvas{
+ margin: 100px;
+}
+
+
+@media all and (max-width: 500px) {
+    #canvas{
+        width: 300px;
+        height: 300px;
+    }
+
+}
